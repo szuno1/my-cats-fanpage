@@ -1,0 +1,179 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 70px;
+}
+h1 {
+    margin: 0px 0px 5px 20px;
+    font-size: 25px;
+    font-style: italic;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 400px;
+    margin: 0px 20px 5px 0px;
+
+}
+a:hover {
+    text-shadow: #b6ae86;
+}
+
+header, header a {
+    background-color: #A2662A;
+    color: #dbd19f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #2d474a;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% 15% 10% 15%;
+
+}
+
+.menu_button a {
+    font-size: 17px;
+    background-color: #092330;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button a {
+    font-size: 20px;
+    background-color: #092330;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.block_1, .block_2 {
+    margin: 10px 10px 50px 10px;
+    height: 400px;
+    width: 400px;
+}
+
+.block_3, .block_4 {
+    margin: 10px 10px 10px 10px;
+    height: 400px;
+    width: 400px;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 25px;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.block, .block a {
+    color: white;
+}
+.block_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block img {
+    height: 400px;
+}
+h4 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.justify-right {
+    display: flex;
+    justify-content: right;
+}
+h5 {
+    font-size: 22px;
+    margin-top: 0px;
+    margin-right: 20%;
+    justify-self:last baseline;
+}
+.block_4 p {
+    font-size: large;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #092330;
+    height: 300px;
+}
+h6, .footer-links a, .get-in-touch a {
+    color: #c19d82;
+}
+h6 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.follow-me {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #f4c7ae;
+    color: white;
+}
+.fa-youtube {
+    background: #d95f41;
+    color: white;
+}
+.footer-links a, .get-in-touch a {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+
+}
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
