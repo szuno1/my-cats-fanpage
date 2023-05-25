@@ -1,2 +1,2 @@
 # my-cats-fanpage
-A fanpage just for a cat named Boogs
+My cat made a fanpage.. for himself!
