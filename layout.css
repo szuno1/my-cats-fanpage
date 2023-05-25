@@ -37,7 +37,6 @@ body {
     justify-content: center;
     margin: 10% 15% 10% 15%;
     height: 100%;
-
 }
 
 .menu_button a {
@@ -61,15 +60,21 @@ body {
 
 }
 .centered {
-    align-items: center;
+    justify-content: center;
 }
 .body-margin-adjust {
     margin-left: 74px;
     margin-right: 74px;
     width: 800px;
 }
+.left-padding {
+    padding: 20px;
+}
 .bottom-margin {
     margin-bottom: 50px;
+}
+.large-font {
+    font-size: large;
 }
 .columned-items {
     flex-direction: column;
@@ -84,12 +89,23 @@ h2 {
     display: flex;
     justify-content: center;
 }
+.row-justify-left {
+    display: flex;
+    justify-content: left;
+}
 .about-block h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.font-georgia {
+.gallery-title {
+    display: flex;
+    justify-content: center;
+}
+.font-georgia-italics {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+}
+.font-georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .about-block {
     color: white;
@@ -103,6 +119,13 @@ h2 {
     margin: 10px 10px 50px 10px;
     height: 400px;
     width: 400px;
+}
+.block_1_gallery {
+    display: flex;
+    margin: 10px 10px 50px 10px;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
 }
 .block_1_contact {
     display: flex;
