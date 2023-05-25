@@ -130,7 +130,7 @@ h2 {
 .block_1_contact {
     display: flex;
     margin: 10px 10px 50px 10px;
-    height: 400px;
+    height: 600px;
     width: 400px;
     flex-direction: column;
     align-items: flex-start;
@@ -155,10 +155,24 @@ h2 {
     height: 400px;
     width: 400px;
 }
+fieldset {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
 .input {
     display: flex;
     flex-direction: column;
     margin: 10px;
+}
+.input_check {
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
 }
 
 h3 {
@@ -206,8 +220,12 @@ h5 {
     background-color: #092330;
     height: 300px;
 }
-h6, .footer-links a, .get-in-touch a {
+h6, .footer-links a, .footer-links ul, .get-in-touch a {
     color: #c19d82;
+}
+.footer-links ul {
+    padding-left: 18px;
+    margin-top: 0px;
 }
 h6 {
     font-size: 25px;
